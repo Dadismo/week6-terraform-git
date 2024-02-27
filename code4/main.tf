@@ -1,5 +1,5 @@
 resource "aws_iam_group" "ansiblegroup" {
-  name = "ansiblegoup"
+  name = "ansiblegroup"
   }
 
   resource "aws_iam_user" "ansible" {
