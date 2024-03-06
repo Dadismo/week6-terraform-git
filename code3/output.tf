@@ -1,11 +1,11 @@
 output "instance_IP" {
-  value = aws_lightsail_instance.my_server1.public_ip_address
+  value = aws_instance.EC2.public_ip
 }
 
 output "my_arn" {
-  value = aws_lightsail_instance.my_server1.arn
+  value = aws_instance.EC2.arn
 }
 
-output "private_IP" {
-  value = aws_lightsail_instance.my_server1.private_ip_address
+output "private IP" {
+  value = aws_instance.EC2.private_ip
 }
